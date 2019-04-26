@@ -528,7 +528,7 @@ WARNING: Servos can draw a considerable amount of current. Make sure your system
 #define AXISCOMP_TANXZ 0
 
 #ifndef SDSUPPORT  // Some boards have sd support on board. These define the values already in pins.h
-#define SDSUPPORT 0
+#define SDSUPPORT 1
 #undef SDCARDDETECT
 #define SDCARDDETECT -1
 #undef SDCARDDETECTINVERTED
@@ -955,7 +955,7 @@ For More Files - http://www.github.com/Yatin-Khurana/Sirius
     "zProbeRepetitions": 1,
     "zProbeMedian": "0",
     "zProbeEveryPoint": "",
-    "sdSupport": "0",
+    "sdSupport": "1",
     "sdCardDetectPin": -1,
     "sdCardDetectInverted": "0",
     "uiStartScreenDelay": 1000,
